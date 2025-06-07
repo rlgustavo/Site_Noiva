@@ -23,6 +23,7 @@ export default function Pedido() {
   return (
     <Container>
       <Coracao src="https://emojicdn.elk.sh/❤️" alt="Coração" />
+      <Pedidotext>Sabia que eu vou lhe irritar muito ainda?</Pedidotext>
       <Botoes>
         <BotaoSim onClick={aceitar}>SIM</BotaoSim>
         <BotaoNao
